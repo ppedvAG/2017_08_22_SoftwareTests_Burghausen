@@ -6,6 +6,11 @@ namespace Calculator.NUnitTests
     [TestFixture]
     public class CalculatorTests
     {
+        //[SetUp]
+        //[SetUpFixture]
+        //[TearDown]
+        //[TestFixtureTearDown]
+
         [Test]
         public void Calculator_Sum_4_and_8_Result_12()
         {
@@ -20,6 +25,7 @@ namespace Calculator.NUnitTests
         }
 
         [Test]
+        [Category("Unit")]
         public void Calculator_Sum_MAX_and_1_Result_OverflowException()
         {
             Calculator calc = new Calculator();

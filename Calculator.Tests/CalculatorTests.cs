@@ -7,6 +7,7 @@ namespace Calculator.Tests
     public class CalculatorTests
     {
         [TestMethod]
+        [TestCategory("Unit")]
         public void Calculator_Sum_6and9_Result15()
         {
             // Arrange
