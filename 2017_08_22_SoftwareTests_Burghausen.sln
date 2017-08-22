@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "Calculator.Tests\Calculator.Tests.csproj", "{99F98B9D-3B1A-42D8-9170-9F8C14723879}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.NUnitTests", "Calculator.NUnitTests\Calculator.NUnitTests.csproj", "{673967BA-6C17-4499-AD7D-CE8D29D905BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{99F98B9D-3B1A-42D8-9170-9F8C14723879}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99F98B9D-3B1A-42D8-9170-9F8C14723879}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99F98B9D-3B1A-42D8-9170-9F8C14723879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{673967BA-6C17-4499-AD7D-CE8D29D905BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673967BA-6C17-4499-AD7D-CE8D29D905BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673967BA-6C17-4499-AD7D-CE8D29D905BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673967BA-6C17-4499-AD7D-CE8D29D905BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{82236CE8-BCAD-4749-98DC-A696F0E6C7BE} = {3A819933-02C7-4AA6-8BB9-9E25C767A7AE}
 		{99F98B9D-3B1A-42D8-9170-9F8C14723879} = {3A819933-02C7-4AA6-8BB9-9E25C767A7AE}
+		{673967BA-6C17-4499-AD7D-CE8D29D905BD} = {3A819933-02C7-4AA6-8BB9-9E25C767A7AE}
 	EndGlobalSection
 EndGlobal
